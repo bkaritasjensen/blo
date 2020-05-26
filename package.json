@@ -45,5 +45,8 @@
     "setup": "node ./bin/setup.js",
     "netlify:login": "netlify login",
     "netlify:deploy": "netlify deploy -d public -p"
+  },
+  "bin": {
+    "contentful-starter-gatsby-blog": "hello.js"
   }
 }
