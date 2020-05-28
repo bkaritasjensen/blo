@@ -1,6 +1,23 @@
 .previewTitle {
   font-size: 1.5em;
+  font-weight: bolder;
 }
+.preview{
+  background-color: white;
+  border-radius: 10px;
+  width: 372px;
+  height: 471px;
+  margin: 25px;
+}
+.categoryText{
+  letter-spacing: 2px;
+  font-size: 0.9em;
+}
+.textBox{
+  margin: 30px;
+  width: 290px;
+}
+
 
 .tag {
   color: #A0A0A0;

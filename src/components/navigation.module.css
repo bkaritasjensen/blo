@@ -8,13 +8,32 @@
   max-height: 100px;
   font-size: 1.25em;
 }
-
-.navigationItem {
-  display: inline-flex;
-  align-items: center;
-  margin: 0 1em;
+.navigation li{
+  border-radius: 10px;
+  width: 270px;
+  height: 272px;
+  margin: 25px;
+}
+.navigation li a{
+  text-decoration: none;
+  color: white;
+}
+.navigation li a h4{
+  font-size: 1em;
 }
 
+.navigationDelivery{
+  background-color: #005AEE;
+}
+.navigationParcels{
+  background-color: #FFA767;
+}
+.navigationQuality{
+  background-color: #0AACDC;
+}
+.navigationService{
+  background-color: #597AEF;
+}
 .navigationItem a {
   color: currentColor;
 }

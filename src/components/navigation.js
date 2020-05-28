@@ -5,11 +5,33 @@ import styles from './navigation.module.css'
 export default () => (
   <nav role="navigation">
     <ul className={styles.navigation}>
-      <li className={styles.navigationItem}>
-        <Link to="/">Home</Link>
+      <li className={styles.navigationDelivery}>
+        <Link to="/">
+          <img src=""/>
+          <h4></h4>
+          <p></p>
+        </Link>
       </li>
-      <li className={styles.navigationItem}>
-        <Link to="/blog/">Blog</Link>
+      <li className={styles.navigationParcels}>
+        <Link to="/">
+          <img src=""/>
+          <h4></h4>
+          <p> </p>
+        </Link>
+      </li>
+      <li className={styles.navigationQuality}>
+        <Link to="/">
+          <img src=""/>
+          <h4></h4>
+          <p></p>
+        </Link>
+      </li>
+      <li className={styles.navigationService}>
+        <Link to="/">
+          <img src=""/>
+          <h4></h4>
+          <p> </p>
+        </Link>
       </li>
     </ul>
   </nav>
