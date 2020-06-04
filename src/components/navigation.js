@@ -7,7 +7,21 @@ import Layout from '../components/layout'
 import Helmet from 'react-helmet'
 
 
-class MenuTemplate extends React.Component {
+export default () => (
+  <nav role="navigation">
+    <ul className={styles.navigation}>
+      <li className={styles.navigationItem}>
+        <Link to="/">Home</Link>
+      </li>
+      <li className={styles.navigationItem}>
+        <Link to="/blog/">Blog</Link>
+      </li>
+    </ul>
+  </nav>
+)
+
+
+/* class MenuTemplate extends React.Component {
   render() {
     const menu = get(this.props, 'data.allContentfulMenu');
 
@@ -22,15 +36,15 @@ class MenuTemplate extends React.Component {
   }
 
 }
-export default MenuTemplate
+export default MenuTemplate */
 
 
 
-export const pageQuery = graphql`
+/* export const pageQuery = graphql`
 query MenuTemplateQuery {
   allContentfulMenu {
     title
   }
 }
-`
+` */
 
